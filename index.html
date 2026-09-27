@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel Explorer</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a href="#" class="brand">
+                <span class="brand-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </span>
+                <span>Travel Explorer</span>
+            </a>
+
+            <nav class="main-nav">
+                <a href="#explore">Explore</a>
+                <a href="#things">Things to Do</a>
+                <a href="#hotels">Hotels</a>
+                <a href="#restaurants">Restaurants</a>
+                <a href="#stories">Travel Stories</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="currency-btn">
+                    <i class="fa-solid fa-globe"></i>
+                    INR
+                </button>
+
+                <a href="#contact" class="sign-in">Sign in</a>
+
+                <button class="mobile-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <h1>Where to?</h1>
+
+            <p>
+                Discover amazing places, unforgettable experiences,
+                hotels and restaurants around the world.
+            </p>
+
+            <div class="search-tabs">
+
+                <button class="active">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Search All
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-hotel"></i>
+                    Hotels
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-utensils"></i>
+                    Restaurants
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-camera"></i>
+                    Things to Do
+                </button>
+
+            </div>
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    placeholder="Places to go, things to do, hotels..."
+                >
+
+                <button>Search</button>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= EXPLORE ================= -->
+    <section class="section" id="explore">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Explore by interest</h2>
+                <p>Find experiences that match your travel style.</p>
+            </div>
+
+            <div class="interest-grid">
+
+                <a href="#" class="interest-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80"
+                        alt="Outdoors"
+                    >
+                    <div class="card-overlay">
+                        <h3>Outdoors</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="interest-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+                        alt="Food"
+                    >
+                    <div class="card-overlay">
+                        <h3>Food</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="interest-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=900&q=80"
+                        alt="Culture"
+                    >
+                    <div class="card-overlay">
+                        <h3>Culture</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="interest-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80"
+                        alt="Water"
+                    >
+                    <div class="card-overlay">
+                        <h3>Water</h3>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= THINGS TO DO ================= -->
+    <section class="section section-light" id="things">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Top experiences around the world</h2>
+                <p>Popular activities travelers are loving right now.</p>
+            </div>
+
+            <div class="experience-grid">
+
+                <article class="experience-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1000&q=80"
+                        alt="Bangkok"
+                    >
+
+                    <div class="card-body">
+                        <span class="location">Bangkok, Thailand</span>
+                        <h3>Discover Bangkok's hidden gems</h3>
+
+                        <div class="rating">
+                            <span>★★★★★</span>
+                            <small>4.8 · 2,450 reviews</small>
+                        </div>
+
+                        <p class="price">From ₹1,299</p>
+                    </div>
+
+                </article>
+
+
+                <article class="experience-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1000&q=80"
+                        alt="Goa"
+                    >
+
+                    <div class="card-body">
+                        <span class="location">Goa, India</span>
+                        <h3>Explore the beaches of Goa</h3>
+
+                        <div class="rating">
+                            <span>★★★★★</span>
+                            <small>4.7 · 3,120 reviews</small>
+                        </div>
+
+                        <p class="price">From ₹899</p>
+                    </div>
+
+                </article>
+
+
+                <article class="experience-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1000&q=80"
+                        alt="Vietnam"
+                    >
+
+                    <div class="card-body">
+                        <span class="location">Vietnam</span>
+                        <h3>Vietnam food and city adventure</h3>
+
+                        <div class="rating">
+                            <span>★★★★★</span>
+                            <small>4.9 · 1,870 reviews</small>
+                        </div>
+
+                        <p class="price">From ₹1,499</p>
+                    </div>
+
+                </article>
+
+
+                <article class="experience-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1000&q=80"
+                        alt="Dubai"
+                    >
+
+                    <div class="card-body">
+                        <span class="location">Dubai, UAE</span>
+                        <h3>Experience modern Dubai</h3>
+
+                        <div class="rating">
+                            <span>★★★★★</span>
+                            <small>4.8 · 4,320 reviews</small>
+                        </div>
+
+                        <p class="price">From ₹2,499</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= FAVORITES ================= -->
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Travelers' favorites</h2>
+                <p>Popular destinations loved by travelers.</p>
+            </div>
+
+            <div class="destination-grid">
+
+                <article class="destination-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=80"
+                        alt="Paris"
+                    >
+                    <div>
+                        <h3>Paris</h3>
+                        <p>France</p>
+                    </div>
+                </article>
+
+                <article class="destination-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1000&q=80"
+                        alt="Rome"
+                    >
+                    <div>
+                        <h3>Rome</h3>
+                        <p>Italy</p>
+                    </div>
+                </article>
+
+                <article class="destination-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1000&q=80"
+                        alt="London"
+                    >
+                    <div>
+                        <h3>London</h3>
+                        <p>United Kingdom</p>
+                    </div>
+                </article>
+
+                <article class="destination-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=80"
+                        alt="Bali"
+                    >
+                    <div>
+                        <h3>Bali</h3>
+                        <p>Indonesia</p>
+                    </div>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= HOTELS ================= -->
+    <section class="section section-light" id="hotels">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Stay somewhere amazing</h2>
+                <p>Hotels and resorts for your next adventure.</p>
+            </div>
+
+            <div class="hotel-grid">
+
+                <article class="hotel-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=80"
+                        alt="Goa hotel"
+                    >
+
+                    <div class="card-body">
+                        <span class="location">Goa, India</span>
+                        <h3>Luxury Beach Resort</h3>
+
+                        <div class="rating">
+                            <span>★★★★★</span>
+                            <small>4.7 · 1,245 reviews</small>
+                        </div>
+
+                        <p class="price">₹6,500 night</p>
+                    </div>
+
+                </article>
+
+
+                <article class="hotel-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1000&q=80"
+                        alt="Dubai hotel"
+                    >
+
+                    <div class="card-body">
+                        <span class="location">Dubai, UAE</span>
+                        <h3>Luxury City Hotel</h3>
+
+                        <div class="rating">
+                            <span>★★★★★</span>
+                            <small>4.8 · 2,890 reviews</small>
+                        </div>
+
+                        <p class="price">₹11,500 night</p>
+                    </div>
+
+                </article>
+
+
+                <article class="hotel-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?auto=format&fit=crop&w=1000&q=80"
+                        alt="Bali hotel"
+                    >
+
+                    <div class="card-body">
+                        <span class="location">Bali, Indonesia</span>
+                        <h3>Tropical Island Resort</h3>
+
+                        <div class="rating">
+                            <span>★★★★★</span>
+                            <small>4.9 · 3,421 reviews</small>
+                        </div>
+
+                        <p class="price">₹7,800 night</p>
+                    </div>
+
+                </article>
+
+
+                <article class="hotel-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80"
+                        alt="Paris hotel"
+                    >
+
+                    <div class="card-body">
+                        <span class="location">Paris, France</span>
+                        <h3>Elegant Paris Hotel</h3>
+
+                        <div class="rating">
+                            <span>★★★★★</span>
+                            <small>4.8 · 2,120 reviews</small>
+                        </div>
+
+                        <p class="price">₹13,200 night</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= RESTAURANTS ================= -->
+    <section class="section" id="restaurants">
+
+        <div class="container">
+
+            <div class="restaurant-feature">
+
+                <div class="restaurant-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=80"
+                        alt="Restaurant"
+                    >
+                </div>
+
+                <div class="restaurant-content">
+
+                    <span class="eyebrow">FOOD LOVERS</span>
+
+                    <h2>Find your next favorite restaurant</h2>
+
+                    <p>
+                        Discover local flavors, popular restaurants,
+                        hidden food spots and unforgettable dining
+                        experiences.
+                    </p>
+
+                    <a href="#" class="primary-btn">
+                        Explore restaurants
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= TRAVEL STORIES ================= -->
+    <section class="section section-light" id="stories">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Travel inspiration</h2>
+                <p>Ideas to help plan your next trip.</p>
+            </div>
+
+            <div class="story-grid">
+
+                <article class="story-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80"
+                        alt="Beach"
+                    >
+
+                    <div class="story-body">
+                        <span>Travel Guide</span>
+                        <h3>10 beautiful beaches to visit this year</h3>
+                        <a href="#">Read more →</a>
+                    </div>
+
+                </article>
+
+
+                <article class="story-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=80"
+                        alt="Food"
+                    >
+
+                    <div class="story-body">
+                        <span>Food & Travel</span>
+                        <h3>Foods you must try while traveling</h3>
+                        <a href="#">Read more →</a>
+                    </div>
+
+                </article>
+
+
+                <article class="story-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1000&q=80"
+                        alt="Asia"
+                    >
+
+                    <div class="story-body">
+                        <span>Adventure</span>
+                        <h3>Explore the hidden beauty of Asia</h3>
+                        <a href="#">Read more →</a>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= ICONIC DESTINATIONS ================= -->
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Iconic destinations</h2>
+                <p>Places that belong on every travel list.</p>
+            </div>
+
+            <div class="iconic-grid">
+
+                <div class="iconic-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=900&q=80"
+                        alt="Rome"
+                    >
+                    <h3>Rome</h3>
+                </div>
+
+                <div class="iconic-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"
+                        alt="Paris"
+                    >
+                    <h3>Paris</h3>
+                </div>
+
+                <div class="iconic-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=80"
+                        alt="London"
+                    >
+                    <h3>London</h3>
+                </div>
+
+                <div class="iconic-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=900&q=80"
+                        alt="Dubai"
+                    >
+                    <h3>Dubai</h3>
+                </div>
+
+                <div class="iconic-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80"
+                        alt="Bali"
+                    >
+                    <h3>Bali</h3>
+                </div>
+
+                <div class="iconic-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=900&q=80"
+                        alt="Singapore"
+                    >
+                    <h3>Singapore</h3>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= NEWSLETTER ================= -->
+    <section class="newsletter">
+
+        <div class="container newsletter-inner">
+
+            <div>
+                <span class="eyebrow">TRAVEL SMART</span>
+                <h2>Get travel inspiration in your inbox</h2>
+                <p>
+                    Subscribe for travel ideas, destination guides
+                    and useful tips.
+                </p>
+            </div>
+
+            <form class="newsletter-form">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                >
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer" id="contact">
+
+        <div class="container footer-grid">
+
+            <div class="footer-about">
+
+                <a href="#" class="brand footer-brand">
+                    <span class="brand-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+                    <span>Travel Explorer</span>
+                </a>
+
+                <p>
+                    Your guide to discovering amazing places,
+                    experiences, hotels and restaurants around the world.
+                </p>
+
+                <div class="my-contact">
+
+                    <p>
+                        <i class="fa-solid fa-user"></i>
+                        <strong>Naveen Kumar</strong>
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:naveenkumardau1997@gmail.com">
+                            naveenkumardau1997@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+919965818906">
+                            +91 9965818906
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>About</h3>
+
+                <a href="#">About Travel Explorer</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+                <a href="#">Contact Us</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Explore</h3>
+
+                <a href="#things">Things to Do</a>
+                <a href="#hotels">Hotels</a>
+                <a href="#restaurants">Restaurants</a>
+                <a href="#stories">Travel Stories</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Follow Me</h3>
+
+                <div class="social-links">
+
+                    <a
+                        href="https://www.linkedin.com/in/naveen-kumar-aa45473ba/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+
+                    <a
+                        href="https://github.com/naveenkumardau1997-crypto"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                © 2026 Travel Explorer. Created by Naveen Kumar.
+            </p>
+
+            <div>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
